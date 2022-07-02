@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05474452-2b53-4f49-92ee-42f2814d38ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/10800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/10806.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +35,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -50,7 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1655521913815</updated>
       <workItem from="1655521918251" duration="623000" />
-      <workItem from="1656637248070" duration="56000" />
+      <workItem from="1656637248070" duration="588000" />
+      <workItem from="1656722343417" duration="28000" />
     </task>
     <servers />
   </component>
