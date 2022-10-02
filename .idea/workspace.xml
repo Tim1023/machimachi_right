@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05474452-2b53-4f49-92ee-42f2814d38ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/right-screen-1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/right-screen-2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/right-screen-3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/right-screen-4@2x.png" afterDir="false" />
+    <list default="true" id="05474452-2b53-4f49-92ee-42f2814d38ad" name="Changes" comment="Phanta Bear">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -65,11 +61,23 @@
       <workItem from="1655521918251" duration="623000" />
       <workItem from="1656637248070" duration="588000" />
       <workItem from="1656722343417" duration="303000" />
-      <workItem from="1664685902302" duration="916000" />
+      <workItem from="1664685902302" duration="2333000" />
     </task>
+    <task id="LOCAL-00001" summary="Phanta Bear">
+      <created>1664686951186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664686951186</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Phanta Bear" />
+    <option name="LAST_COMMIT_MESSAGE" value="Phanta Bear" />
   </component>
 </project>
