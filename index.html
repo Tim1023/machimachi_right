@@ -11,28 +11,26 @@
     <title>Hello, world!</title>
 </head>
 <body>
-<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-pause="false" data-ride="carousel" data-interval="8000">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="./assets/right-screen-1@2x.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="./assets/right-screen-2@2x.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="./assets/right-screen-3@2x.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="./assets/right-screen-4@2x.png" class="d-block w-100" alt="...">
-        </div>
-    </div>
-</div>
+<video  type="video/mp4" class="img" muted="muted" loop="loop" autoplay="autoplay" id="videoOne">
+</video>
+
 <style>
     img{
         width: 100vw;
         height: 100vh;
     }
 </style>
+<script>
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "assets/Untitled.mp4", true);
+    xhr.responseType = "blob";
+    xhr.onload = function () {
+        var video = document.getElementById("videoOne");
+        video.src = window.URL.createObjectURL(xhr.response);
+        video.play();
+    };
+    xhr.send();
+</script>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
