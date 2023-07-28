@@ -16,7 +16,7 @@
 
     <script>
       const video = document.getElementById("videoOne");
-      fetch("assets/Untitled.mp4")
+      fetch("assets/punkcat_sm.mp4")
         .then(response => response.blob())
         .then(blob => {
           video.src = URL.createObjectURL(blob);
